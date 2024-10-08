@@ -6,3 +6,8 @@ def test(result, correct):
         + str(correct)
         + "\x1b[0m",
     )
+
+
+def in_place(f, *args):
+    f(*args)
+    return args
