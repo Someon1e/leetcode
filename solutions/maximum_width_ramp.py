@@ -1,8 +1,8 @@
 # https://leetcode.com/problems/maximum-width-ramp/description/
 
+
 class Solution:
     def maxWidthRamp(self, nums) -> int:
-        n = len(nums)
         indices = []
         smallest = None
         for index, num in enumerate(nums):
@@ -19,6 +19,7 @@ class Solution:
 
                 max_width = max(max_width, index2 - index)
         return max_width
+
 
 from leetcode import *
 

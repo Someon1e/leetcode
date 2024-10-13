@@ -18,6 +18,5 @@ class Solution:
 
 from leetcode import *
 
-# TODO: in place testing
 test(*in_place(Solution().moveZeroes, ([0, 1, 0, 3, 12])), [1, 3, 12, 0, 0])
 test(*in_place(Solution().moveZeroes, ([0])), [0])
