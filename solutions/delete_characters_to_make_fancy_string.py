@@ -1,3 +1,6 @@
+# https://leetcode.com/problems/delete-characters-to-make-fancy-string/description/
+
+
 class Solution:
     def makeFancyString(self, s: str) -> str:
         last = None
@@ -14,3 +17,6 @@ class Solution:
                 count = 1
                 output.append(character)
         return "".join(output)
+
+
+# TODO: tests
