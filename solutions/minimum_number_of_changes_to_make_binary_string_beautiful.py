@@ -1,3 +1,6 @@
+# https://leetcode.com/problems/minimum-number-of-changes-to-make-binary-string-beautiful/description/
+
+
 class Solution:
     def minChanges(self, s: str) -> int:
         changes = 0
@@ -6,3 +9,4 @@ class Solution:
                 changes += 1
         return changes
 
+# TODO: tests
