@@ -14,3 +14,6 @@ class Solution:
             elif n in seen:
                 return False
             seen.add(n)
+
+
+# TODO: tests
