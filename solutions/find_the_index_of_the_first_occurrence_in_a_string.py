@@ -8,3 +8,10 @@ class Solution:
             if haystack[index : index + length] == needle:
                 return index
         return -1
+
+
+from leetcode import *
+
+
+test(Solution().strStr("sadbutsad", "sad"), 0)
+test(Solution().strStr("leetcode", "leeto"), -1)

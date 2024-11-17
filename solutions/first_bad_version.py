@@ -15,3 +15,6 @@ class Solution:
                 minimum = midpoint + 1
 
         return minimum
+
+
+# TODO: tests
