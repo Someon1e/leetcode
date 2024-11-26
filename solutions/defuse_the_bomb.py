@@ -1,3 +1,6 @@
+# https://leetcode.com/problems/defuse-the-bomb/description/
+
+
 class Solution:
     def decrypt(self, code, k: int):
         if k > 0:
@@ -11,3 +14,5 @@ class Solution:
         else:
             return [0] * len(code)
         return code
+
+# TODO: tests
