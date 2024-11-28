@@ -16,4 +16,7 @@ class Solution:
         return x
 
 
-# TODO: tests
+from leetcode import *
+
+test(Solution().minEnd(3, 4), 6)
+test(Solution().minEnd(2, 7), 15)
