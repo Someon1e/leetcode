@@ -11,3 +11,12 @@ class Solution:
                 space_index += 1
             output.append(character)
         return "".join(output)
+
+
+from leetcode import *
+
+test(
+    Solution().addSpaces("LeetcodeHelpsMeLearn", [8, 13, 15]), "Leetcode Helps Me Learn"
+)
+test(Solution().addSpaces("icodeinpython", [1, 5, 7, 9]), "i code in py thon")
+test(Solution().addSpaces("spacing", [0, 1, 2, 3, 4, 5, 6]), " s p a c i n g")
