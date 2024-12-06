@@ -16,4 +16,7 @@ class Solution:
             seen.add(n)
 
 
-# TODO: tests
+from leetcode import *
+
+test(Solution().isHappy(19), True)
+test(Solution().isHappy(2), False)
