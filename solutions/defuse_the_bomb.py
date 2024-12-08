@@ -15,4 +15,9 @@ class Solution:
             return [0] * len(code)
         return code
 
-# TODO: tests
+
+from leetcode import *
+
+test(Solution().decrypt([5, 7, 1, 4], 3), [12, 10, 16, 13])
+test(Solution().decrypt([1, 2, 3, 4], 0), [0, 0, 0, 0])
+test(Solution().decrypt([2, 4, 9, 3], -2), [12, 5, 6, 13])
