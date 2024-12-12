@@ -19,4 +19,8 @@ class Solution:
         return "".join(output)
 
 
-# TODO: tests
+from leetcode import *
+
+test(Solution().makeFancyString("leeetcode"), "leetcode")
+test(Solution().makeFancyString("aaabaaaa"), "aabaa")
+test(Solution().makeFancyString("aab"), "aab")
