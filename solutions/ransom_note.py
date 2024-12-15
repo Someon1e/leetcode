@@ -9,4 +9,8 @@ class Solution:
         return True
 
 
-# TODO: tests
+from leetcode import *
+
+test(Solution().canConstruct(ransomNote="a", magazine="b"), False)
+test(Solution().canConstruct(ransomNote="aa", magazine="ab"), False)
+test(Solution().canConstruct(ransomNote="aa", magazine="aab"), True)
