@@ -1,3 +1,5 @@
+character_list = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"]
+
 class Solution:
     def toHex(self, num: int) -> str:
         if num < 0:
@@ -5,29 +7,12 @@ class Solution:
         elif num == 0:
             return "0"
 
-        def character(hex):
-            match hex:
-                case 10:
-                    return "a"
-                case 11:
-                    return "b"
-                case 12:
-                    return "c"
-                case 13:
-                    return "d"
-                case 14:
-                    return "e"
-                case 15:
-                    return "f"
-                case _:
-                    return str(hex)
-
         result = []
         while num >= 16:
-            result.append(character(num % 16))
+            result.append(character_list[num % 16])
             num //= 16
         if num != 0:
-            result.append(character(num))
+            result.append(character_list[num])
         return "".join(reversed(result))
 
 
