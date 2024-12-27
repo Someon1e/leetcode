@@ -10,6 +10,6 @@ class Solution:
 
 from leetcode import *
 
-test(Solution().isPowerOfthree(27), True)
-test(Solution().isPowerOfthree(0), False)
-test(Solution().isPowerOfthree(-1), False)
+test(Solution().isPowerOfThree(27), True)
+test(Solution().isPowerOfThree(0), False)
+test(Solution().isPowerOfThree(-1), False)
