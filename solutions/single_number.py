@@ -7,7 +7,7 @@ class Solution:
             result ^= num
         return result
 
-from leetcode import *
+from leetcode import test
 
 
 test(Solution().singleNumber([2, 2, 1]), 1)

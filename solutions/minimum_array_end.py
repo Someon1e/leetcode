@@ -16,7 +16,7 @@ class Solution:
         return x
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().minEnd(3, 4), 6)
 test(Solution().minEnd(2, 7), 15)

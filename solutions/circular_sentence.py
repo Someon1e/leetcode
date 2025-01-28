@@ -11,7 +11,7 @@ class Solution:
         return sentence[0] == sentence[-1]
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().isCircularSentence("leetcode exercises sound delightful"), True)
 test(Solution().isCircularSentence("eetcode"), True)

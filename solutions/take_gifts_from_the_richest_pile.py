@@ -13,7 +13,7 @@ class Solution:
         return sum(gifts)
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().pickGifts([25, 64, 9, 4, 100], 4), 29)
 test(Solution().pickGifts([1, 1, 1, 1], 4), 4)

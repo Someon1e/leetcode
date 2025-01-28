@@ -13,7 +13,7 @@ class Solution:
         return "".join(output)
 
 
-from leetcode import *
+from leetcode import test
 
 test(
     Solution().addSpaces("LeetcodeHelpsMeLearn", [8, 13, 15]), "Leetcode Helps Me Learn"

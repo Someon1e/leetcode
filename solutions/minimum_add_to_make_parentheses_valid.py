@@ -19,7 +19,7 @@ class Solution:
         return len(stack) + needed
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().minAddToMakeValid("())"), 1)
 test(Solution().minAddToMakeValid("((("), 3)

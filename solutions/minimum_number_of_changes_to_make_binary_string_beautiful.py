@@ -9,7 +9,7 @@ class Solution:
                 changes += 1
         return changes
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().minChanges("1001"), 2)
 test(Solution().minChanges("10"), 1)

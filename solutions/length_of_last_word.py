@@ -6,7 +6,7 @@ class Solution:
         return len(s.strip().split(" ")[-1])
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().lengthOfLastWord("Hello World"), 5)
 test(Solution().lengthOfLastWord("   fly me   to   the moon  "), 4)

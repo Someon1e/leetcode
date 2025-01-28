@@ -11,7 +11,7 @@ class Solution:
                 return len(s)
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().minLength("ABFCACDB"), 2)
 test(Solution().minLength("ACBBD"), 5)

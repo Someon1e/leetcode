@@ -6,7 +6,7 @@ class Solution:
         return sum(abs(ord(s[i]) - ord(s[i + 1])) for i in range(len(s) - 1))
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().scoreOfString("hello"), 13)
 test(Solution().scoreOfString("zaz"), 50)

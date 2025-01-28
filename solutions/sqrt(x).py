@@ -19,7 +19,7 @@ class Solution:
         return upper
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().mySqrt(4), 2)
 test(Solution().mySqrt(8), 2)

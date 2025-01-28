@@ -6,7 +6,7 @@ class Solution:
         return len(nums) != len(set(nums))
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().containsDuplicate([1, 2, 3, 1]), True)
 test(Solution().containsDuplicate([1, 2, 3, 4]), False)

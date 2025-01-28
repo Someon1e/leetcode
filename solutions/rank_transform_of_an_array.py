@@ -9,7 +9,7 @@ class Solution:
         return [lookup[value] for value in arr]
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().arrayRankTransform([40, 10, 20, 30]), [4, 1, 2, 3])
 test(Solution().arrayRankTransform([100, 100, 100]), [1, 1, 1])

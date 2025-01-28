@@ -11,7 +11,7 @@ class Solution:
         return False
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().checkIfExist([10, 2, 5, 3]), True)
 test(Solution().checkIfExist([3, 1, 7, 11]), False)

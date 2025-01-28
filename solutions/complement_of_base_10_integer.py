@@ -9,7 +9,7 @@ class Solution:
         return ~num & mask
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().bitwiseComplement(5), 2)
 test(Solution().bitwiseComplement(7), 0)

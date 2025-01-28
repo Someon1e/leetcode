@@ -6,7 +6,7 @@ class Solution:
         return int(format(n, "032b")[::-1], 2)
 
 
-from leetcode import *
+from leetcode import test
 
 test(
     Solution().reverseBits(0b00000010100101000001111010011100),

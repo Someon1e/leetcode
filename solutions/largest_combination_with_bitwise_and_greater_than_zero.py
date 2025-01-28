@@ -11,7 +11,7 @@ class Solution:
         return max(counter)
 
 
-from leetcode import *
+from leetcode import test
 
 
 test(Solution().largestCombination([16, 17, 71, 62, 12, 24, 14]), 4)

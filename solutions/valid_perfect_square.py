@@ -8,7 +8,7 @@ class Solution:
         return num in lookup
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().isPerfectSquare(16), True)
 test(Solution().isPerfectSquare(14), False)

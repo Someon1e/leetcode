@@ -6,7 +6,7 @@ class Solution:
         return str(x)[::-1] == str(x)
 
 
-from leetcode import *
+from leetcode import test
 
 test(
     Solution().isPalindrome(121),

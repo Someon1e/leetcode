@@ -10,7 +10,7 @@ class Solution:
         return result
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().missingNumber([3, 0, 1]), 2)
 test(Solution().missingNumber([0, 1]), 2)

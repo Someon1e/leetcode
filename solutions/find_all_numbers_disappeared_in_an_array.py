@@ -11,7 +11,7 @@ class Solution:
         return result
 
 
-from leetcode import *
+from leetcode import test
 
 
 test(Solution().findDisappearedNumbers([4, 3, 2, 7, 8, 2, 3, 1]), [5, 6])

@@ -9,7 +9,7 @@ class Solution:
         return max(nums_set)
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().thirdMax([3, 2, 1]), 1)
 test(Solution().thirdMax([1, 2]), 2)

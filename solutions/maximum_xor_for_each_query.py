@@ -15,7 +15,7 @@ class Solution:
         return answers
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().getMaximumXor([0, 1, 1, 3], 2), [0, 3, 2, 3])
 test(Solution().getMaximumXor([2, 3, 4, 7], 3), [5, 2, 6, 5])

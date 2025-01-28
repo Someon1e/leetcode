@@ -13,7 +13,7 @@ class Solution:
         return chr(result)
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().findTheDifference("abcd", "abcde"), "e")
 test(Solution().findTheDifference("", "y"), "y")

@@ -21,7 +21,7 @@ class Solution:
         return max_width
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().maxWidthRamp([6, 0, 8, 2, 1, 5]), 4)
 test(Solution().maxWidthRamp([9, 8, 1, 0, 1, 9, 4, 0, 4, 1]), 7)

@@ -17,7 +17,7 @@ class Solution:
         return overlaps
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().minGroups([[5, 10], [6, 8], [1, 5], [2, 3], [1, 10]]), 3)
 test(Solution().minGroups([[1, 3], [5, 6], [8, 10], [11, 13]]), 1)

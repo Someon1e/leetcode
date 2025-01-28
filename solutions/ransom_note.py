@@ -9,7 +9,7 @@ class Solution:
         return True
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().canConstruct(ransomNote="a", magazine="b"), False)
 test(Solution().canConstruct(ransomNote="aa", magazine="ab"), False)

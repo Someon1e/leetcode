@@ -11,7 +11,7 @@ class Solution(object):
         return False
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().containsNearbyDuplicate([1, 2, 3, 1], 3), True)
 test(Solution().containsNearbyDuplicate([1, 0, 1, 1], 1), True)

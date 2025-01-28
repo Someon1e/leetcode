@@ -8,7 +8,7 @@ class Solution:
         return [a for a, b in Counter(s1.split(" ") + s2.split(" ")).items() if b == 1]
 
 
-from leetcode import *
+from leetcode import test
 
 test(
     Solution().uncommonFromSentences("this apple is sweet", "this apple is sour"),

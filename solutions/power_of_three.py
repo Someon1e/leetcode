@@ -8,7 +8,7 @@ class Solution:
         return n in powers_of_three
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().isPowerOfThree(27), True)
 test(Solution().isPowerOfThree(0), False)

@@ -20,7 +20,7 @@ class Solution:
         return stack[0]
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().evalRPN(["2", "1", "+", "3", "*"]), 9)
 test(Solution().evalRPN(["4", "13", "5", "/", "+"]), 6)

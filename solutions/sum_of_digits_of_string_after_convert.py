@@ -38,7 +38,7 @@ class Solution:
         return transformed
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().getLucky("iiii", 1), 36)
 test(Solution().getLucky("leetcode", 2), 6)

@@ -7,7 +7,7 @@ class Solution:
         return ~num & mask
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().findComplement(5), 2)
 test(Solution().findComplement(1), 0)

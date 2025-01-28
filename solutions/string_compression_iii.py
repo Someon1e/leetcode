@@ -27,7 +27,7 @@ class Solution:
         return "".join(comp)
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().compressedString("abcde"), "1a1b1c1d1e")
 test(Solution().compressedString("aaaaaaaaaaaaaabb"), "9a5a2b")

@@ -14,7 +14,7 @@ class Solution:
         return count
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().countConsistentStrings("ab", ["ad", "bd", "aaab", "baa", "badab"]), 2)
 test(

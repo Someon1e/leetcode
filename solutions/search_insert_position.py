@@ -17,7 +17,7 @@ class Solution:
         return lower
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().searchInsert([1, 3, 5, 6], 5), 2)
 test(Solution().searchInsert([1, 3, 5, 6], 2), 1)

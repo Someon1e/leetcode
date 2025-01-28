@@ -6,7 +6,7 @@ class Solution:
         return nums + nums
 
 
-from leetcode import *
+from leetcode import test
 
 
 test(Solution().getConcatenation([1, 2, 1]), [1, 2, 1, 1, 2, 1])

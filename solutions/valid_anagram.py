@@ -13,7 +13,7 @@ class Solution:
                 return False
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().isAnagram("anagram", "nagaram"), True)
 test(Solution().isAnagram("rat", "car"), False)

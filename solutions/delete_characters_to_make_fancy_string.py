@@ -19,7 +19,7 @@ class Solution:
         return "".join(output)
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().makeFancyString("leeetcode"), "leetcode")
 test(Solution().makeFancyString("aaabaaaa"), "aabaa")

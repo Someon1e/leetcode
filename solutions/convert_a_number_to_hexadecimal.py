@@ -16,7 +16,7 @@ class Solution:
         return "".join(reversed(result))
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().toHex(26), "1a")
 test(Solution().toHex(-1), "ffffffff")

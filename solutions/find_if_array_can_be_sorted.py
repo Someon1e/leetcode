@@ -26,7 +26,7 @@ class Solution:
         return True
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().canSortArray([8, 4, 2, 30, 15]), True)
 test(Solution().canSortArray([1, 2, 3, 4, 5]), True)

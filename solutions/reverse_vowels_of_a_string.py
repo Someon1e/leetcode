@@ -17,7 +17,7 @@ class Solution:
         return "".join(result)
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().reverseVowels("IceCreAm"), "AceCreIm")
 test(Solution().reverseVowels("leetcode"), "leotcede")

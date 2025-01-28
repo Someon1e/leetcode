@@ -15,7 +15,7 @@ class Solution:
         return not stack
 
 
-from leetcode import *
+from leetcode import test
 
 
 test(Solution().isValid("()"), True)

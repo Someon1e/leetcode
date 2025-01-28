@@ -13,7 +13,7 @@ class Solution:
         return steps
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().minimumSteps("101"), 1)
 test(Solution().minimumSteps("100"), 2)

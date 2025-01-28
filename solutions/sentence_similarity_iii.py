@@ -40,7 +40,7 @@ class Solution:
         return False
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().areSentencesSimilar("Aa a", "A a a"), False)
 test(Solution().areSentencesSimilar("My name is Haley", "My Haley"), True)

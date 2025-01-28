@@ -9,7 +9,7 @@ class Solution:
         return -1
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().isPrefixOfWord("i love eating burger", "burg"), 4)
 test(Solution().isPrefixOfWord("this problem is an easy problem", "pro"), 2)

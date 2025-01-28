@@ -16,7 +16,7 @@ class Solution:
         return code
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().decrypt([5, 7, 1, 4], 3), [12, 10, 16, 13])
 test(Solution().decrypt([1, 2, 3, 4], 0), [0, 0, 0, 0])

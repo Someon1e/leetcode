@@ -11,7 +11,7 @@ class Solution:
         return "".join(upper_to_lower.get(character, character) for character in s)
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().toLowerCase("Hello"), "hello")
 test(Solution().toLowerCase("here"), "here")

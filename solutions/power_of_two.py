@@ -8,7 +8,7 @@ class Solution:
         return n in powers_of_two
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().isPowerOfTwo(1), True)
 test(Solution().isPowerOfTwo(16), True)

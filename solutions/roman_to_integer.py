@@ -34,7 +34,7 @@ class Solution:
         return total + counting
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().romanToInt("III"), 3)
 test(Solution().romanToInt("LVIII"), 58)

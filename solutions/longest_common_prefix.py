@@ -14,7 +14,7 @@ class Solution:
             index += 1
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().longestCommonPrefix(["flower", "flow", "flight"]), "fl")
 test(Solution().longestCommonPrefix(["dog", "racecar", "car"]), "")

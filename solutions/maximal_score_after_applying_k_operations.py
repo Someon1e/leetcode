@@ -20,7 +20,7 @@ class Solution:
         return total
 
 
-from leetcode import *
+from leetcode import test
 
 
 test(Solution().maxKelements([10, 10, 10, 10, 10], 5), 50)

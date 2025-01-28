@@ -32,7 +32,7 @@ class Solution:
         return "".join(reversed(result))
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().addBinary("11", "1"), "100")
 test(Solution().addBinary("1010", "1011"), "10101")

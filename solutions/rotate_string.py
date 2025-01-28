@@ -9,7 +9,7 @@ class Solution:
         return False
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().rotateString("abcde", "cdeab"), True)
 test(Solution().rotateString("abcde", "abced"), False)

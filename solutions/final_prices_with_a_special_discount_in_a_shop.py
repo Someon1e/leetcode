@@ -15,7 +15,7 @@ class Solution:
         return answer
 
 
-from leetcode import *
+from leetcode import test
 
 
 test(Solution().finalPrices([8, 4, 6, 2, 3]), [4, 2, 4, 2, 3])

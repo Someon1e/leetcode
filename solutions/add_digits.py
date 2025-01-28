@@ -26,7 +26,7 @@ class Solution:
         return 0
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().addDigits(38), 2)
 test(Solution().addDigits(0), 0)

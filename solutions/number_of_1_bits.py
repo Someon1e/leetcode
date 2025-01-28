@@ -6,7 +6,7 @@ class Solution:
         return n.bit_count()
 
 
-from leetcode import *
+from leetcode import test
 
 test(Solution().hammingWeight(11), 3)
 test(Solution().hammingWeight(128), 1)
