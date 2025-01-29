@@ -1,5 +1,5 @@
 class Solution:
-    def summaryRanges(self, nums: List[int]) -> List[str]:
+    def summaryRanges(self, nums):
         start = None
         previous = None
         result = []

@@ -2,7 +2,7 @@
 
 
 class Solution:
-    def isAnagram(self, s: str, t: str) -> bool:
+    def isAnagram(self, s: str, t: str):
         # return Counter(s) == Counter(t)
         # but that defeats the purpose
 
@@ -11,6 +11,7 @@ class Solution:
         for character in set(s):
             if t.count(character) != s.count(character):
                 return False
+        return True
 
 
 from leetcode import test
